@@ -6,7 +6,7 @@ $(function() {
 		console.log("OK !");
 		
 		console.log("Enregistrement du service worker");
-		navigator.serviceWorker.register("/rhor.bitbucket.org/sw.js", { scope: "/rhor.bitbucket.org/" }).then(function(reg) {
+		navigator.serviceWorker.register("/ikurhai.github.io/sw.js", { scope: "/ikurhai.github.io/" }).then(function(reg) {
 			console.log("OK ! Scope : " + reg.scope);
 		}).catch(function(error) {
 			console.error(error);
