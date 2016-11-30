@@ -1,0 +1,42 @@
+body {
+	font-family: monospace;
+	color: #ccc;
+	background-color: #000000;
+}
+
+.prompt {
+    margin: 0;
+    padding: 0;	
+}
+
+.cmdline {
+	outline: none;
+	background-color: transparent;
+	margin: 0;
+	font: inherit;
+	border: none;
+	color: inherit;
+	width: 80%;
+}
+
+.logs {
+    margin: 0;
+    padding: 0;
+	list-style-type: none;
+}
+
+.logs li {
+	padding-top: 1px;
+}
+
+.logs .info {
+	color: cyan;
+}
+
+.logs .warn {
+	color: yellow;
+}
+
+.logs .error {
+	color: red;
+}
